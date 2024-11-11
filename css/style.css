@@ -1,0 +1,45 @@
+
+body {
+	margin: 0;
+	font-family: 'Hack';
+
+
+	/* Variables */
+	--background-color1: rgba(3, 0, 5, 1);
+  --background-color2: rgba(8, 0, 10, 1);
+	--primary-color: #fff;
+	--secondary-color: orange;
+
+	--text-color: #fff;
+	--link-color: rgb(50, 50, 2);
+  --link-selected-color: rgb(200, 200, 20);
+
+
+  background: rgb(3,0,5);
+  background: linear-gradient(128deg, rgba(3,0,5,1) 0%, rgba(45,0,56,1) 83%); 
+  background-size: 100% 900%;
+  background-repeat: none;
+}
+
+a {
+  transition: .8s ease;
+  color: var(--link-color);
+}
+a:hover {
+  color: var(--link-selected-color);
+}
+
+
+button {
+  background: none;
+
+  border: none;
+  border: 1px solid purple;
+  border-bottom: 3px solid purple;
+  border-radius: 5px;
+
+  color: white;
+  cursor: pointer;
+}
+
+
